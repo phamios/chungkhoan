@@ -1,0 +1,74 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+.upload{}
+.upload .grid {
+	width:100%;
+	border:0px;
+	border-collapse:collapse;
+}
+.upload table.grid tr td {
+	padding:2px;
+	border:1px solid #E1E1E1;
+}
+.upload button,
+.upload .button {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	height:22px;
+	width:70px;
+	padding:1px 0px 5px 0px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:#A0B0C2;
+	border-top:1px solid #D5DCE3;
+	border-right:1px solid #465362;
+	border-bottom:1px solid #465362;
+	border-left:1px solid #D5DCE3;
+}
+.upload .icon {
+	width:16px;
+	height:16px;
+	display:-moz-inline-block;
+	display:-moz-inline-box;
+	display:inline-block;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+.upload .attach {
+	background:url('images/attach.png');
+}
+.upload .ok {
+	background:url('images/ok.png');
+}
+.upload .cancel {
+	background:url('images/cancel.png');
+}
+.upload .error {
+	background:url('images/error.png');
+}
+.upload .loading {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#ff0000;
+	height:16px;
+	white-space:nowrap;
+	padding:3px 0px 0px 25px;
+	background:url('images/loading.gif') top left no-repeat;
+}
+.upload .msg {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#FF0000;
+	display:inline;
+	padding:5px 0px 5px 35px;
+	background:url('images/message.png') left center no-repeat;
+}
+.upload .floatLeft {
+	display:inline;
+	float:left;
+}

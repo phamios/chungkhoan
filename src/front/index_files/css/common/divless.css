@@ -1,0 +1,22 @@
+ul {
+	list-style:none none;
+}
+dl,dd,dt,ul	{
+	margin:0;
+	padding:0;
+}
+.identifier	{
+	display:none;
+}
+.clear {
+	clear:both;
+}
+.list {
+	/*change to however you want a normal list to appear*/
+	list-style:disc inside; 
+	margin-left:10px;	
+}
+form {
+	margin:0px;
+	padding:0px;
+}

@@ -1,0 +1,315 @@
+@CHARSET "ISO-8859-1";
+div.clear {clear:both;height:0px;width:0px;}
+div.w1280 {width:1200px;}
+div.w1024 {width:985px;}
+div.scroll {margin:2px 0px 1px 0px;width:100%;min-width:1005px;min-height:250px;height:450px;overflow:auto;}
+div.scroll1 {margin:2px 0px 1px 0px;width:100%;min-width:1220px;min-height:250px;height:450px;overflow:auto;}
+
+span.hl {background-color:yellow;}
+span.sb {font-size:9px;}
+#server span {font-weight:bold;}
+ 
+ table {border:none;border-collapse:collapse;padding:0px;margin:0px;}
+table tr {vertical-align:middle;}
+table td {font-family:arial;font-size:12px;font-weight:bold;text-align:right;height:15px;border:solid 1px gray;}
+
+table td.c10,table td.c10r,table td.c10b,table td.c10g,table td.c10o,table td.c10p {padding-left:2px;text-align:left;border-right:none;background-color:white;cursor:pointer;}
+table td.c10r {color:red;}
+table td.c10b {color:blue;}
+table td.c10g {color:green;}
+table td.c10o {color:orange;}
+table td.c10p {color:purple;}
+
+table td.c11,table td.c11r,table td.c11b,table td.c11g,table td.c11o,table td.c11p {padding-left:2px;text-align:left;border-right:none;background-color:#e6e6e6;cursor:pointer;}
+table td.c11r {color:red;}
+table td.c11b {color:blue;}
+table td.c11g {color:green;}
+table td.c11o {color:orange;}
+table td.c11p {color:purple;}
+
+table td.c20 {font-size:9px;color:blue;text-align:left;border-left:none;border-right:none;background-color:white;}
+table td.c21 {font-size:9px;color:blue;text-align:left;border-left:none;border-right:none;background-color:#e6e6e6;}
+
+table td.c30 {text-align:right;border-left:none;background-color:white;}
+table td.c31 {text-align:right;border-left:none;background-color:#e6e6e6;}
+table td.c30_ {text-align:right;border-left:none;background-color:white;}
+table td.c31_ {text-align:right;border-left:none;background-color:#e6e6e6;}
+table td.c30n {text-align:right;border-left:none;background-color:white;}
+table td.c31n {text-align:right;border-left:none;background-color:#e6e6e6;}
+table td.c30c {text-align:right;border-left:none;background-color:white;color:blue;}
+table td.c31c {text-align:right;border-left:none;background-color:#e6e6e6;color:blue;}
+table td.c30u {text-align:right;border-left:none;background-color:white;color:blue;}
+table td.c31u {text-align:right;border-left:none;background-color:#e6e6e6;color:blue;}
+table td.c30d {text-align:right;border-left:none;background-color:white;color:red;}
+table td.c31d {text-align:right;border-left:none;background-color:#e6e6e6;color:red;}
+table td.c30f {text-align:right;border-left:none;background-color:white;color:red;}
+table td.c31f {text-align:right;border-left:none;background-color:#e6e6e6;color:red;}
+
+table td.c40 {background-color:#eff4e2;}
+table td.c41 {background-color:#d7d2a9;}
+table td.c40_ {background-color:#eff4e2;}
+table td.c41_ {background-color:#d7d2a9;}
+table td.c40c {background-color:#eff4e2;color:blue;}
+table td.c41c {background-color:#d7d2a9;color:blue;}
+table td.c40u {background-color:#eff4e2;color:blue;}
+table td.c41u {background-color:#d7d2a9;color:blue;}
+table td.c40n {background-color:#eff4e2;color:#ff8000;}
+table td.c41n {background-color:#d7d2a9;color:#ff8000;}
+table td.c40d {background-color:#eff4e2;color:red;}
+table td.c41d {background-color:#d7d2a9;color:red;}
+table td.c40f {background-color:#eff4e2;color:red;}
+table td.c41f {background-color:#d7d2a9;color:red;}
+
+table td.c50 {background-color:#eaf6f6;}
+table td.c51 {background-color:#bdd7d7;}
+table td.c50_ {background-color:#eaf6f6;}
+table td.c51_ {background-color:#bdd7d7;}
+table td.c50c {background-color:#eaf6f6;color:blue;}
+table td.c51c {background-color:#bdd7d7;color:blue;}
+table td.c50u {background-color:#eaf6f6;color:blue;}
+table td.c51u {background-color:#bdd7d7;color:blue;}
+table td.c50n {background-color:#eaf6f6;color:#ff8000;}
+table td.c51n {background-color:#bdd7d7;color:#ff8000;}
+table td.c50d {background-color:#eaf6f6;color:red;}
+table td.c51d {background-color:#bdd7d7;color:red;}
+table td.c50f {background-color:#eaf6f6;color:red;}
+table td.c51f {background-color:#bdd7d7;color:red;}
+
+table td.c60 {background-color:white;}
+table td.c61 {background-color:#e6e6e6;}
+table td.c60_ {background-color:white;}
+table td.c61_ {background-color:#e6e6e6;}
+table td.c60c {background-color:white;color:blue;}
+table td.c61c {background-color:#e6e6e6;color:blue;}
+table td.c60u {background-color:white;color:blue;}
+table td.c61u {background-color:#e6e6e6;color:blue;}
+table td.c60n {background-color:white;color:#ff8000;}
+table td.c61n {background-color:#e6e6e6;color:#ff8000;}
+table td.c60d {background-color:white;color:red;}
+table td.c61d {background-color:#e6e6e6;color:red;}
+table td.c60f {background-color:white;color:red;}
+table td.c61f {background-color:#e6e6e6;color:red;}
+
+table.menu {width:100%;}
+table.menu td {font-family:verdana;font-size:11px;font-weight:bold;border:none; text-align:left; height:18px;padding:0px;}
+table.menu #home {width:10%;padding-left:30px;}
+table.menu #link {width:50%;}
+table.menu #server {}
+table.menu #func {width:10%;text-align:right;}
+table.menu #lang {width:10%;text-align:right;}
+table.menu a {text-decoration:none;font-weight:bold;color:blue; padding:1px 10px 1px 10px;}
+table.menu a:hover {background-color:#e6e6e6;color:#000000;}
+table.menu a:selected {background-color:#e6e6e6;color:#000000;}
+
+table.head {width:100%;}
+table.head td {font-family:verdana;font-size:18px;border:none;font-weight:normal;text-align:left;height:30px;padding:0px;}
+table.head #logo {width:510px;}
+table.head #titall,table.head #tithsx,table.head #tithnx,table.head #titupc,table.head #titpth {color:blue;}
+table.head #date {width:100px;}
+table.head #clock {font-size:11px;width:60px;text-align:right;font-weight:bold;height:25px;padding-top:5px;}
+
+table.foot {width:100%;}
+table.foot tr {vertical-align:middle;background-color:#e6e6e6;}
+table.foot td {font-family:verdana;font-size:11px;border:none;font-weight:normal;text-align:left;height:30px;padding:4px;}
+table.foot #com {width:550px;}
+table.foot #not {text-align:right;}
+table.foot #not1 {text-align:right;}
+
+table.stat {width:985px;}
+table.stat tr {background:#e6e6e6;}
+table.stat td {font-family:verdana;font-size:11px;font-weight:bold;border:none; text-align:left; height:18px;padding:0px;}
+table.stat #tittva,table.stat #tittvo {padding-left:30px;width:110px;}
+
+table.stat #hsxid_ {width:80px;padding-left:5px;}
+table.stat #hsx30id_ {width:100px;padding-left:5px;}
+table.stat #hsxidx {width:180px;}
+table.stat #hsxval {width:75px;color:blue;text-align:right;}
+table.stat #hsxvol {width:90px;color:blue;text-align:right;}
+table.stat #hsxmkt {color:red;padding-left:30px;}
+table.stat #hnxid_ {width:80px;padding-left:5px;}
+table.stat #hnxidx {width:180px;}
+table.stat #hnxval {width:75px;color:blue;text-align:right;}
+table.stat #hnxvol {width:90px;color:blue;text-align:right;}
+table.stat #hnxmkt {color:red;padding-left:30px;}
+table.stat #upcid_ {width:80px;padding-left:5px;}
+table.stat #upcidx {width:180px;}
+table.stat #upcval {width:75px;color:blue;text-align:right;}
+table.stat #upcvol {width:90px;color:blue;text-align:right;}
+table.stat #upcmkt {color:red;padding-left:30px;}
+
+table.stat1 {width:1200px;}
+table.stat1 tr {background:#e6e6e6;}
+table.stat1 td {font-family:verdana;font-size:11px;font-weight:bold;border:none; text-align:left; height:18px;padding:0px;}
+table.stat1 #hsxid_ {width:70px;padding-left:5px;}
+table.stat1 #hsxidx {width:170px;}
+table.stat1 #hsxval {width:75px;color:blue;text-align:right;}
+table.stat1 #hsxva_ {width:15px;padding-left:2px;}
+table.stat1 #hsxvol {width:90px;color:blue;text-align:right;}
+table.stat1 #hsxvo_ {width:15px;padding-left:2px;}
+table.stat1 #hsxmkt {width:140px;color:red;padding-left:10px;}
+table.stat1 #hnxid_ {width:80px;}
+table.stat1 #hnxidx {width:170px;}
+table.stat1 #hnxval {width:75px;color:blue;text-align:right;}
+table.stat1 #hnxva_ {width:15px;padding-left:2px;}
+table.stat1 #hnxvol {width:90px;color:blue;text-align:right;}
+table.stat1 #hnxvo_ {width:15px;padding-left:2px;}
+table.stat1 #hnxmkt {color:red;padding-left:10px;}
+
+table.all {width:1200px;}
+table.all th {font-family:arial; font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;padding:0px;border:solid 1px #e6e6e6;height:18px;}
+table.all tr.emp th {padding:0px;border-bottom:solid 1px gray;height:0px;}
+table.all th.sto {border-left:solid 1px blue;}
+table.all th.sym {width:9px;}
+table.all th.img {width:12px;}
+table.all th.ref {width:33px;}
+table.all th.cei {width:33px;}
+table.all th.flo {width:33px;}
+table.all th.bv4 {width:48px;}
+table.all th.bp3 {width:33px;}
+table.all th.bv3 {width:48px;}
+table.all th.bp2 {width:33px;}
+table.all th.bv2 {width:48px;}
+table.all th.bp1 {width:33px;}
+table.all th.bv1 {width:48px;}
+table.all th.mpr {width:33px;}
+table.all th.mvo {width:48px;}
+table.all th.mtv {width:58px;}
+table.all th.mch {width:45px;}
+table.all th.sp1 {width:33px;}
+table.all th.sv1 {width:48px;}
+table.all th.sp2 {width:33px;}
+table.all th.sv2 {width:48px;}
+table.all th.sp3 {width:33px;}
+table.all th.sv3 {width:48px;}
+table.all th.sv4 {width:48px;}
+table.all th.pho {width:33px;}
+table.all th.phh {width:33px;}
+table.all th.phl {width:33px;}
+table.all th.pha {width:33px;}
+table.all th.fbu {width:48px;}
+table.all th.fse {width:48px;border-right:solid 1px blue;}
+
+table.hsx {width:985px}
+table.hsx th {font-family:arial; font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;padding:0px;border:solid 1px #e6e6e6;height:18px;}
+table.hsx tr.emp th {padding:0px;border-bottom:solid 1px gray;height:0px;}
+table.hsx th.sto {border-left:solid 1px blue;}
+table.hsx th.sym {width:9px;}
+table.hsx th.img {width:12px;}
+table.hsx th.ref {width:31px}
+table.hsx th.cei {width:31px}
+table.hsx th.flo {width:31px}
+table.hsx th.bp3 {width:31px}
+table.hsx th.bv3 {width:49px}
+table.hsx th.bp2 {width:31px}
+table.hsx th.bv2 {width:49px}
+table.hsx th.bp1 {width:31px}
+table.hsx th.bv1 {width:49px}
+table.hsx th.mpr {width:32px}
+table.hsx th.mvo {width:32px}
+table.hsx th.mtv {width:59px}
+table.hsx th.mch {width:43px}
+table.hsx th.sp1 {width:31px}
+table.hsx th.sv1 {width:49px}
+table.hsx th.sp2 {width:31px}
+table.hsx th.sv2 {width:49px}
+table.hsx th.sp3 {width:31px}
+table.hsx th.sv3 {width:49px}
+table.hsx th.pho {width:31px}
+table.hsx th.phh {width:31px}
+table.hsx th.phl {width:31px}
+table.hsx th.pha {width:34px}
+table.hsx th.fbu {width:49px;border-right:solid 1px blue;}
+
+table.hnx {width:985px}
+table.hnx th {font-family:arial; font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;padding:0px;border:solid 1px #e6e6e6;height:18px;}
+table.hnx tr.emp th {padding:0px;border-bottom:solid 1px gray;height:0px;}
+table.hnx th.sto {border-left:solid 1px blue;}
+table.hnx th.sym {width:9px;}
+table.hnx th.img {width:12px;}
+table.hnx th.ref {width:33px}
+table.hnx th.cei {width:33px}
+table.hnx th.flo {width:33px}
+table.hnx th.bp3 {width:33px}
+table.hnx th.bv3 {width:43px}
+table.hnx th.bp2 {width:33px}
+table.hnx th.bv2 {width:43px}
+table.hnx th.bp1 {width:33px}
+table.hnx th.bv1 {width:49px}
+table.hnx th.mpr {width:33px}
+table.hnx th.mvo {width:33px}
+table.hnx th.mtv {width:59px}
+table.hnx th.mch {width:43px}
+table.hnx th.sp1 {width:33px}
+table.hnx th.sv1 {width:49px}
+table.hnx th.sp2 {width:33px}
+table.hnx th.sv2 {width:43px}
+table.hnx th.sp3 {width:33px}
+table.hnx th.sv3 {width:43px}
+table.hnx th.pho {width:33px}
+table.hnx th.phh {width:33px}
+table.hnx th.phl {width:33px}
+table.hnx th.pha {width:33px}
+table.hnx th.fbu {width:49px}
+table.hnx th.fse {width:49px;border-right:solid 1px blue;}
+
+table.upc {width:985px}
+table.upc th {font-family:arial; font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;padding:0px;border:solid 1px #e6e6e6;height:18px;}
+table.upc tr.emp th {padding:0px;border-bottom:solid 1px gray;height:0px;}
+table.upc th.sto {border-left:solid 1px blue;}
+table.upc th.sym {width:9px;}
+table.upc th.img {width:12px;}
+table.upc th.ref {width:33px}
+table.upc th.cei {width:33px}
+table.upc th.flo {width:33px}
+table.upc th.bp3 {width:33px}
+table.upc th.bv3 {width:43px}
+table.upc th.bp2 {width:33px}
+table.upc th.bv2 {width:43px}
+table.upc th.bp1 {width:33px}
+table.upc th.bv1 {width:49px}
+table.upc th.mpr {width:33px}
+table.upc th.mvo {width:33px}
+table.upc th.mtv {width:59px}
+table.upc th.mch {width:43px}
+table.upc th.sp1 {width:33px}
+table.upc th.sv1 {width:49px}
+table.upc th.sp2 {width:33px}
+table.upc th.sv2 {width:43px}
+table.upc th.sp3 {width:33px}
+table.upc th.sv3 {width:43px}
+table.upc th.pho {width:33px}
+table.upc th.phh {width:33px}
+table.upc th.phl {width:33px}
+table.upc th.pha {width:33px}
+table.upc th.fbu {width:49px}
+table.upc th.fse {width:49px;border-right:solid 1px blue;}
+
+table.pt {width:985px}
+table.pt td,table.pt th{border:none;padding:0px;font-size:14px;text-align:center;height:20px;}
+table.pt th.buy {width:340px;}
+table.pt th.spa {width:10px;}
+table.pt th.sel {width:340px;}
+table.pt th.mat {}
+table.pt tr.dat {vertical-align:top}
+
+table.pttra {width:100%}
+table.pttra th {font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;border:solid 1px blue;height:18px;}
+table.pttra th.sto {width:65px;border-right:solid 1px white}
+table.pttra th.pri {width:50px;border-right:solid 1px white;border-left:solid 1px white}
+table.pttra th.vol {width:70px;border-right:solid 1px white;border-left:solid 1px white}
+table.pttra th.fir {width:60px;border-right:solid 1px white;border-left:solid 1px white}
+table.pttra th.tim {border-left:solid 1px white}
+table.pttra td {font-family:arial;font-size:12px;font-weight:bold;padding-left:2px;padding-right:1px;padding-top:1px;padding-bottom:1px;border:solid 1px gray;height:15px;}
+table.pttra tr.emp td {border:none;height:4px;}
+
+table.ptmat {width:100%}
+table.ptmat th {font-size:11px;font-weight:bold;text-align:center;color:white;background-color:blue;border:solid 1px blue;height:18px;}
+table.ptmat th.sto {width:65px;border-right:solid 1px white}
+table.ptmat th.mpr {width:50px;border-right:solid 1px white;border-left:solid 1px white}
+table.ptmat th.mvo {width:70px;border-right:solid 1px white;border-left:solid 1px white}
+table.ptmat th.mtv {border-left:solid 1px white}
+table.ptmat td {font-family:arial;font-size:12px;font-weight:bold;padding-left:2px;padding-right:1px;padding-top:1px;padding-bottom:1px;border:solid 1px gray;height:15px;}
+table.ptmat tr.emp td {border:none;height:4px;}
+
+#dhtmltooltip{position:absolute;width:65px;border:1px solid black;text-align:right;padding:2px;background-color:#ffffe0;visibility:hidden;z-index:100;}
+ 

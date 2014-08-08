@@ -1,0 +1,88 @@
+/* Slideshow v1.1.23 */
+
+div.MagicSlideshow {
+    border:0px;
+    background: transparent;
+    display: none; /* hides all images until Magic Slideshow is ready */
+	position:relative;
+}
+
+/* Styles for images */
+img.MagicSlideshowImage {
+    border: 0px;
+}
+
+/* Styles for images container */
+div.MagicSlideshowImagesContainer {
+}
+
+/* Styles for thumbnails */
+img.MagicSlideshowThumbnail {
+    border:2px solid #716658;
+    margin:0 2px 0 0 !important;
+    background:transparent;
+}
+img.MagicSlideshowThumbnail.highlight {
+    border:2px solid #F7941D;
+}
+
+/* Styles for thumbnails container */
+div.MagicSlideshowThumbnailsContainer {
+    padding:0 3px;
+	margin:3px;
+}
+div.MagicSlideshowThumbnailsContainerStyle {
+    background: transparent;
+}
+
+/* Styles for descriptions */
+.MagicSlideshowDescription {
+    line-height: 24px;
+    background: #333333;
+    color: #FFFFFF;
+    __padding: 3px !important;
+}
+
+/* Styles for links if using text descriptions */
+.MagicSlideshowDescription a {
+    color: #FFFFFF;
+}
+.MagicSlideshowDescription a:visited {
+    color: #FFFFFF;
+}
+.MagicSlideshowDescription a:hover {
+    color: #FFFFFF;
+}
+
+/* Style for loading box */
+div.MagicSlideshowLoadingBox {
+    background: #FFFFFF url('graphics/loader.gif') no-repeat 50% 2px;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px !important;
+    line-height: 15px;
+    color: #363636;
+    border: 1px solid #696969;
+    text-align: left;
+}
+
+/* Styles for arrows */
+a.MagicSlideshowArrow {
+    width: 66px;
+    height: 66px;
+    cursor: 'pointer';
+    background: url('graphics/arrows06.png');
+    padding: 0px !important;
+    margin: 0px !important;
+}
+a.MagicSlideshowArrowTop {
+    background-position: 66px 0;
+}
+a.MagicSlideshowArrowRight {
+    background-position: 0 0;
+}
+a.MagicSlideshowArrowBottom {
+    background-position: 66px 66px;
+}
+a.MagicSlideshowArrowLeft {
+    background-position: 0 66px;
+}
