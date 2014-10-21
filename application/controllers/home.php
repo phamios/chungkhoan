@@ -28,7 +28,7 @@ class Home extends CI_Controller {
 		$data ['description'] = $site_info ['description'];
 		$data ['footer'] = $site_info ['footer'];
 		
-		$this->load->view ( 'front/index', $data );
+		$this->load->view ( 'home/index', $data );
 	}
 	public function register($error = null) {
 		$site_info = $this->site_info ();
@@ -96,7 +96,7 @@ class Home extends CI_Controller {
 				$data ['error'] = "";
 			}
 		}
-		$this->load->view ( 'front/index', $data );
+		$this->load->view ( 'home/index', $data );
 	}
 	public function login($error = null) {
 		$site_info = $this->site_info ();
